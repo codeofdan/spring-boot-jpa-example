@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: changeme
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  output:
+    ansi:
+      enabled: always
+  main:
+    web-environment: true
